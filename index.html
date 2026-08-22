@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <body>
+
+    <nav class="navbar">
+        <div class="logo">
+             <span class="brain-icon">🧠</span>My Portfolio
+            </div>
+
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#Website">Website</a>
+            <a href="#resume">Resume</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <canvas id="particles"></canvas>
+        <div class="hero-text">
+            <p class="intro">Hello, I'm</p>
+
+            <h1>Priyanka Yadhav</h1>
+
+            <h2>Software Engineer specialized in Artificial Intelligence</h2>
+
+            <p class="description">
+                I am passionate about technology, learning new skills,
+                and building meaningful projects.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+   <section id="about">
+    <h2>About Me</h2>
+
+    <div class="about-card">
+        <p>
+            Worked as a <strong>Software Engineer</strong> for
+            <strong>4 years</strong> in the <strong>Full-Stack</strong> domain,
+            most recently as a <strong>Configuration Analyst</strong> on contract.
+            I possess <strong>1 year of hands-on experience in AI/ML</strong>
+            and am looking for an opportunity to work with a progressive
+            organization where I can continue developing my technical skills
+            and contribute to organizational objectives.
+        </p>
+
+        <p>
+            I am a <strong>passionate learner</strong> interested in
+            <strong>Artificial Intelligence</strong>,
+            <strong>Machine Learning</strong>, and
+            <strong>Software Development</strong>.
+        </p>
+    </div>
+</section>
+
+
+<section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills-list">
+
+        <div class="skill-item">
+            <span class="skill-number">01</span>
+            <div>
+                <h3>Programming & Web</h3>
+                <p>Python, JavaScript, HTML, CSS, Web Technologies</p>
+            </div>
+        </div>
+
+        <div class="skill-item">
+            <span class="skill-number">02</span>
+            <div>
+                <h3>Software Engineering</h3>
+                <p>OOPS, Data Structures & Algorithms, Git, Visual Studio</p>
+            </div>
+        </div>
+
+        <div class="skill-item">
+            <span class="skill-number">03</span>
+            <div>
+                <h3>AI & Machine Learning</h3>
+                <p>Machine Learning, Generative AI, Prompt Engineering</p>
+            </div>
+        </div>
+
+        <div class="skill-item">
+            <span class="skill-number">04</span>
+            <div>
+                <h3>Databases</h3>
+                <p>MySQL, FAISS, ChromaDB</p>
+            </div>
+        </div>
+
+        <div class="skill-item">
+            <span class="skill-number">05</span>
+            <div>
+                <h3>Cloud & Tools</h3>
+                <p>GCP, AWS EC2, Git</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects-grid">
+
+        <div class="project-card">
+            <h3>ETL – Job Fraud Detection</h3>
+            <p>
+                An end-to-end ETL and machine learning pipeline that detects
+                likely-fraudulent job postings. Raw job listing data is cleaned
+                and transformed into structured fraud-signal features, loaded
+                into a relational database, and used to train a classifier that
+                flags suspicious postings.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Voice Cloning</h3>
+            <p>
+                An advanced voice cloning system leveraging state-of-the-art
+                extreme Text-to-Speech (XTTS) models to create highly realistic
+                and natural-sounding synthetic voices. The project involved
+                collection, processing, and fine-tuning of a deep learning model
+                to replicate a target speaker's voice from limited audio data.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Supply Chain Analytics Solution</h3>
+            <p>
+                Delivered end-to-end analytics for SCM using Python, SQL, and
+                visualization tools. Provided insights that supported forecasting
+                and demand planning decisions, helping increase profit by 15%
+                and reduce waste by up to 30%.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Airline Passenger Satisfaction</h3>
+            <p>
+                Built a machine learning project predicting passenger satisfaction
+                levels using survey data, achieving over 90% accuracy. Applied EDA,
+                feature engineering, and Scikit-learn libraries to build predictive
+                models using Logistic Regression and Random Forest.
+            </p>
+        </div>
+
+    </div>
+</section>
+    <section id="Website">
+    <h2>Website</h2>
+
+    <div class="social-links">
+
+        <a href="https://github.com/PriyankaYadhav/AI-Projects.git"
+           target="_blank"
+           class="social-btn github">
+            <span class="social-icon">⌘</span>
+            GitHub
+        </a>
+
+        <a href="https://www.linkedin.com/in/priyanka-yadhav-suresh-67bb35259/"
+           target="_blank"
+           class="social-btn linkedin">
+            <span class="social-icon">in</span>
+            LinkedIn
+        </a>
+
+    </div>
+</section>
+
+
+<section id="contact">
+    <div class="contact-card">
+
+        <h2>Let's Connect</h2>
+
+        <p>
+            I'm always open to discussing opportunities,
+            projects, and new ideas.
+        </p>
+
+        <a href="mailto:priyanka.yadhavs.1995@gmail.com"
+           class="email-btn">
+            ✉ &nbsp; priyanka.yadhavs.1995@gmail.com
+        </a>
+
+    </div>
+</section>
+<!-- Resume Popup -->
+<div id="resumeModal" class="resume-modal">
+
+    <div class="resume-content">
+
+        <div class="resume-header">
+            <h2>My Resume</h2>
+
+            <button id="closeResume" class="close-btn">&times;</button>
+        </div>
+
+        <iframe
+            src="resume/Priyanka-Resume.pdf"
+            class="resume-pdf">
+        </iframe>
+
+        <div class="resume-actions">
+
+            <a
+                href="resume/Priyanka-Resume.pdf"
+                download="Priyanka-Resume.pdf"
+                class="resume-download">
+                Download Resume
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>
+
+<script src="script.js"></script>
